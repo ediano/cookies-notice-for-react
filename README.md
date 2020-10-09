@@ -73,7 +73,7 @@ const App: React.FC = () => (
 export default App;
 ```
 
-Da mesmo forma que os componentes com CSS puro, também pode ser passado propriedades não obrigatórios para o componente com styled-components.
+Da mesmo forma que os componentes com CSS puro, também pode ser passado propriedades não obrigatórias para o componente com styled-components.
 
 ```tsx
 import React from 'react';
