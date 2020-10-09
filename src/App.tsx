@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Cookies from './components/Cookies'
+import TemplateWithPureCSS from './components/TemplateWithPureCSS'
 
-import './global.css'
+import './styles/global.css'
 
 const App: React.FC = () => (
   <>
     <h1>Aviso de cookies para ReactJS com TypeScript</h1>
 
-    <Cookies />
+    <TemplateWithPureCSS />
   </>
 );
 
