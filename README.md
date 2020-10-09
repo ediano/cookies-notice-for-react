@@ -1,8 +1,6 @@
 # Cookie Notice for React
 
-Este é um pequeno repositório, que foi criado a partir de um comentário de um dos usuários do Inside Block, no comentário ele solicitou ajuda para adicionar aviso de cookies em páginas construídas com ReactJS. Então vamos lá, esta documentação é bem simples.
-
-Postagem do comentário: https://insideblock.com/blog/criando-barra-de-aviso-de-cookies-para-sites
+Este é um pequeno repositório, que foi criado a partir de um comentário de um dos usuários do insideblock.com, no comentário ele solicitou ajuda para adicionar aviso de cookies em páginas construídas com ReactJS. Então vamos lá, esta documentação é bem simples.
 
 ## Local Storage
 
