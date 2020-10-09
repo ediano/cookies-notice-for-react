@@ -16,7 +16,7 @@ O uso do componente funciona de similar a qualquer outro componente React, este 
 
 OBS: Use apenas um dos modelos de cada vez por página, jamais use o os dois ao mesmo tempo.
 
-### Exemplo: Componente com CSS puro.
+### Exemplo: Componente com CSS puro
 
 ```tsx
 import React from 'react';
