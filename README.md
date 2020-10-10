@@ -98,4 +98,4 @@ export default App;
 
 Por enquanto é isso.
 
-Este repositório está aberto a aceitar contribuições
+Este repositório está aberto a contribuições.
