@@ -11,7 +11,9 @@ O template de aviso de cookies funciona diretamente com o `localStorage` do nave
 O uso do componente funciona de similar a qualquer outro componente React, este projeto é formado por dois componentes com mesmo layout de aparência, porém a forma como funciona por baixo dos panos são diferentes, um está escrito com CSS puro e outro com styled-components.
 
 **Nome de componentes:**
+
 **CSS puro:** TemplateWithPureCSS
+
 **styled-components:** TemplateWithStyledComponent
 
 OBS: Use apenas um dos modelos de cada vez por página, jamais use o os dois ao mesmo tempo.
