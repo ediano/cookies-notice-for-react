@@ -6,11 +6,11 @@ Este é um pequeno repositório, que foi criado a partir de um comentário de um
 
 ## Local Storage
 
-O template de aviso de cookies funciona diretamente com o `localStorage` do navegador do usuário, uma vez aceito o aviso só será exibido novamente, se o `localStorage` for excluído, ou se por algum motivos a chave for diferente da anterior.
+O template de aviso de cookies funciona diretamente com o `localStorage` do navegador do usuário, uma vez aceito, o aviso só será exibido novamente se o `localStorage` do navegador for limpo, ou se por algum motivos a chave armazenada for diferente da anterior.
 
 ## Usando componente
 
-O uso do componente funciona de similar a qualquer outro componente React, este projeto é formado por dois componentes com mesmo layout de aparência, porém a forma como funciona por baixo dos panos são diferentes, um está escrito com CSS puro e outro com styled-components.
+O uso do componente funciona como qualquer outro componente React, este projeto é formado por dois componentes com mesmo layout de aparência, porém a forma como funciona por baixo dos panos são diferentes, um está escrito com CSS puro e outro com styled-components.
 
 **Nome de componentes:**
 
