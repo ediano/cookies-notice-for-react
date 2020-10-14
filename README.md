@@ -64,13 +64,13 @@ export default App;
 ```tsx
 import React from 'react';
 
-import TemplateWithPureCSS from './components/TemplateWithPureCSS';
+import TemplateWithStyledComponent from './components/TemplateWithStyledComponent';
 
 const App: React.FC = () => (
  <>
    <h1>Aviso de cookies para ReactJS com TypeScript</h1>
 
-   <TemplateWithPureCSS />
+   <TemplateWithStyledComponent />
  </>
 );
 
