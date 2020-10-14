@@ -2,6 +2,8 @@
 
 Este é um pequeno repositório, que foi criado a partir de um comentário de um dos usuários do insideblock.com, no comentário ele solicitou ajuda para adicionar aviso de cookies em páginas construídas com ReactJS. Então vamos lá, esta documentação é bem simples.
 
+![cookie warning](/cookie-warning.png)
+
 ## Local Storage
 
 O template de aviso de cookies funciona diretamente com o `localStorage` do navegador do usuário, uma vez aceito o aviso só será exibido novamente, se o `localStorage` for excluído, ou se por algum motivos a chave for diferente da anterior.
