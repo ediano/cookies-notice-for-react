@@ -18,28 +18,22 @@ O template de aviso de cookies funciona diretamente com o `localStorage` do nave
 
 ## Usando componente
 
-O uso do componente funciona como qualquer outro componente React, este projeto é formado por dois componentes com mesmo layout de aparência, porém a forma como funciona por baixo dos panos são diferentes, um está escrito com CSS puro e outro com styled-components.
-
-**Nome de componentes:**
-
-**CSS puro:** TemplateWithPureCSS
-
-**styled-components:** TemplateWithStyledComponent
+O uso dos componentes funciona como qualquer outro componente React, este projeto é formado por alguns modelos, ambos foram desenvolvido com styled-components.
 
 OBS: Use apenas um dos modelos de cada vez por página, jamais use o os dois ao mesmo tempo.
 
-### Exemplo: Componente com CSS puro
+### Exemplo
 
 ```tsx
 import React from 'react';
 
-import { TemplateWithPureCSS } from './components/TemplateWithPureCSS';
+import { Default } from './components/Default';
 
 const App: React.FC = () => (
  <>
    <h1>Aviso de cookies para ReactJS com TypeScript</h1>
 
-   <TemplateWithPureCSS />
+   <Default />
  </>
 );
 
@@ -51,55 +45,16 @@ Também é possível passar propriedades não obrigatórios para o componente.
 ```tsx
 import React from 'react';
 
-import { TemplateWithPureCSS } from './components/TemplateWithPureCSS';
+import { Default } from './components/Default';
 
 const App: React.FC = () => (
  <>
    <h1>Aviso de cookies para ReactJS com TypeScript</h1>
 
-   <TemplateWithPureCSS
+   <Default
       message='Mensagem para o usuário'
       textButton='Texto do botão que aceita o clique (Aceitar!)'
     />
- </>
-);
-
-export default App;
-```
-
-### Exemplo: Componente com styled-components
-
-```tsx
-import React from 'react';
-
-import { TemplateWithStyledComponent } from './components/TemplateWithStyledComponent';
-
-const App: React.FC = () => (
- <>
-   <h1>Aviso de cookies para ReactJS com TypeScript</h1>
-
-   <TemplateWithStyledComponent />
- </>
-);
-
-export default App;
-```
-
-Da mesmo forma que os componentes com CSS puro, também pode ser passado propriedades não obrigatórias para o componente com styled-components.
-
-```tsx
-import React from 'react';
-
-import { TemplateWithStyledComponent } from './components/TemplateWithStyledComponent';
-
-const App: React.FC = () => (
- <>
-  <h1>Aviso de cookies para ReactJS com TypeScript</h1>
-
-  <TemplateWithStyledComponent
-    message='Mensagem para o usuário'
-    textButton='Texto do botão que aceita o clique (Aceitar!)'
-  />
  </>
 );
 

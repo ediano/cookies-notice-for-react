@@ -1,13 +1,11 @@
 import React from 'react'
-import ListTemplate from '../components/ListTemplate'
+import Layout from '../templates/Layout'
 import { TopScreen as Template } from '../components/TopScreen'
 
 const TopScreen = () => (
-  <>
-    <ListTemplate/>
-
+  <Layout>
     <Template />
-  </>
+  </Layout>
 )
   
   export default TopScreen

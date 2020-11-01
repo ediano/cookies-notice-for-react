@@ -1,13 +1,11 @@
 import React from 'react'
-import ListTemplate from '../components/ListTemplate'
+import Layout from '../templates/Layout'
 import { FloatingScreen as Template } from '../components/FloatingScreen'
 
 const FloatingScreen = () => (
-  <>
-    <ListTemplate/>
-
+  <Layout>
     <Template />
-  </>
+  </Layout>
 )
   
   export default FloatingScreen

@@ -1,18 +1,17 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   position: fixed;
   background: rgba(0, 0, 0, .9);
   width: 100%;
+  z-index: 998;
   bottom: 0;
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  z-index: 998;
 
-  p, button {
+  p,
+  button {
     text-align: center;
     padding: 25px;
     color: #fff;
@@ -28,4 +27,4 @@ export const Container = styled.div`
   @media screen and (max-width: 600px) {
     flex-direction: column;
   }
-`;
+`

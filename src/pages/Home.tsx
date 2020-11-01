@@ -1,13 +1,11 @@
 import React from 'react'
-import ListTemplate from '../components/ListTemplate'
-import { TemplateWithStyledComponent as Template } from '../components/TemplateWithStyledComponent'
+import Layout from '../templates/Layout'
+import { Default as Template } from '../components/Default'
 
 const Home = () => (
-  <>
-    <ListTemplate/>
-
+  <Layout>
     <Template />
-  </>
+  </Layout>
 )
   
   export default Home

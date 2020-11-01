@@ -22,7 +22,7 @@ export const TopScreen: React.FC<TopScreenProps> =
   return (
     <>
       {!cookies && (
-        <Container>
+        <Container className="box-cookies">
           <p>{message ? message : 'Este site usa cookies para garantir que você obtenha a melhor experiência.'}</p>
           <button onClick={handleAcceptCookies}>{textButton ? textButton : 'Aceitar!'}</button>
         </Container>
