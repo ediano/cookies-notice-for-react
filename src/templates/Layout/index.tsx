@@ -29,6 +29,10 @@ const Layout = ({ children }: Props) => {
     lisLinks.current?.classList.toggle('active')
   }, [])
 
+  const handleClearLocalStorage = useCallback(() => {
+      localStorage.clear()
+  }, [])
+
   return(
     <>
       <ListTemplate>
@@ -48,7 +52,7 @@ const Layout = ({ children }: Props) => {
             </button>
 
           <Context>
-            <button type="button">Limpar</button>
+            <button onClick={handleClearLocalStorage} type="button">Limpar</button>
 
             <a 
               href="https://github.com/ediano/cookies-notice-for-react" 
