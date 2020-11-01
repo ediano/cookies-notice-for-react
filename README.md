@@ -6,9 +6,9 @@ Este é um pequeno repositório, que foi criado a partir de um comentário de um
 [Template Top Screen](https://cookies-notice-for-react.vercel.app/top-screen)
 [Template Floating Screen](https://cookies-notice-for-react.vercel.app/floating-screen)
 
-|-|-|
-|![default](/.github/default.png)|![top-screen](/.github/top-screen.png)|
-|![floating screen](/.github/floating-screen.png)||
+![default](/.github/default.png)
+![top-screen](/.github/top-screen.png)
+![floating screen](/.github/floating-screen.png)
 
 ## Local Storage
 
