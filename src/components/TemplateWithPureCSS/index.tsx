@@ -7,7 +7,7 @@ interface TemplateWithPureCSSProps {
   textButton?: string;
 }
 
-const TemplateWithPureCSS: React.FC<TemplateWithPureCSSProps> = 
+export const TemplateWithPureCSS: React.FC<TemplateWithPureCSSProps> = 
   ({ message, textButton }) => {
   const [cookies, setCookies] = useState(() => {
     return !!localStorage.getItem('@CookiesTemplateWithPureCSS:ReactJS');
@@ -32,5 +32,3 @@ const TemplateWithPureCSS: React.FC<TemplateWithPureCSSProps> =
     </>
   );
 }
-
-export default TemplateWithPureCSS;

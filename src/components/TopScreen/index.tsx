@@ -2,19 +2,19 @@ import React, { useState, useCallback } from 'react';
 
 import { Container } from './styles'
 
-interface TemplateWithStyledComponentProps {
+interface TopScreenProps {
   message?: string;
   textButton?: string;
 }
 
-export const TemplateWithStyledComponent: React.FC<TemplateWithStyledComponentProps> =
+export const TopScreen: React.FC<TopScreenProps> =
   ({ message, textButton}) => {
   const [cookies, setCookies] = useState(() => {
-    return !!localStorage.getItem('@CookiesTemplateWithStyledComponent:ReactJS');
+    return !!localStorage.getItem('@CookiesTopScreen:ReactJS');
   });
 
   const handleAcceptCookies = useCallback(() => {
-    localStorage.setItem('@CookiesTemplateWithStyledComponent:ReactJS', 'accept');
+    localStorage.setItem('@CookiesTopScreen:ReactJS', 'accept');
 
     setCookies(true);
   }, []);

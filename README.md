@@ -2,7 +2,13 @@
 
 Este é um pequeno repositório, que foi criado a partir de um comentário de um dos usuários do insideblock.com, no comentário ele solicitou ajuda para adicionar aviso de cookies em páginas construídas com ReactJS. Então vamos lá, esta documentação é bem simples.
 
-![cookies warning](/.github/cookies-warning.png)
+[Template Default](https://cookies-notice-for-react.vercel.app)
+[Template Top Screen](https://cookies-notice-for-react.vercel.app/top-screen)
+[Template Floating Screen](https://cookies-notice-for-react.vercel.app/floating-screen)
+
+|-|-|
+|![default](/.github/default.png)|![top-screen](/.github/top-screen.png)|
+|![floating screen](/.github/floating-screen.png)||
 
 ## Local Storage
 
@@ -25,7 +31,7 @@ OBS: Use apenas um dos modelos de cada vez por página, jamais use o os dois ao 
 ```tsx
 import React from 'react';
 
-import TemplateWithPureCSS from './components/TemplateWithPureCSS';
+import { TemplateWithPureCSS } from './components/TemplateWithPureCSS';
 
 const App: React.FC = () => (
  <>
@@ -43,7 +49,7 @@ Também é possível passar propriedades não obrigatórios para o componente.
 ```tsx
 import React from 'react';
 
-import TemplateWithPureCSS from './components/TemplateWithPureCSS';
+import { TemplateWithPureCSS } from './components/TemplateWithPureCSS';
 
 const App: React.FC = () => (
  <>
@@ -64,7 +70,7 @@ export default App;
 ```tsx
 import React from 'react';
 
-import TemplateWithStyledComponent from './components/TemplateWithStyledComponent';
+import { TemplateWithStyledComponent } from './components/TemplateWithStyledComponent';
 
 const App: React.FC = () => (
  <>
@@ -82,7 +88,7 @@ Da mesmo forma que os componentes com CSS puro, também pode ser passado proprie
 ```tsx
 import React from 'react';
 
-import TemplateWithStyledComponent from './components/TemplateWithStyledComponent';
+import { TemplateWithStyledComponent } from './components/TemplateWithStyledComponent';
 
 const App: React.FC = () => (
  <>
