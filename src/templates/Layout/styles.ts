@@ -22,7 +22,7 @@ height: 64px;
 
 .wrapper ul li a {
   background: #444;
-  border: 1px solid transform;
+  border: 1px solid transparent;
   padding: 10px;
   border-radius: 4px;
   color: #fafafa;
