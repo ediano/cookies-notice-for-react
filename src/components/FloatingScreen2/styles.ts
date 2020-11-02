@@ -29,7 +29,7 @@ export const Container = styled.div`
   p,
   button {
     text-align: center;
-    padding: 25px;
+    padding: 15px 25px;
     color: #fff;
     font-size: 18px;
   }
@@ -38,7 +38,8 @@ export const Container = styled.div`
     display: block;
     background: #1e88e5;
     cursor: pointer;
-    align-self: normal;
+    border-radius: 20px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 500px){

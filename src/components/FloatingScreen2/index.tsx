@@ -2,19 +2,19 @@ import React, { useState, useCallback } from 'react';
 
 import { Container } from './styles'
 
-interface FloatingScreenProps {
+interface FloatingScreen2Props {
   message?: string;
   textButton?: string;
 }
 
-export const FloatingScreen: React.FC<FloatingScreenProps> =
+export const FloatingScreen2: React.FC<FloatingScreen2Props> =
   ({ message, textButton}) => {
   const [cookies, setCookies] = useState(() => {
-    return !!localStorage.getItem('@CookiesFloatingScreen:ReactJS');
+    return !!localStorage.getItem('@CookiesFloatingScreen2:ReactJS');
   });
 
   const handleAcceptCookies = useCallback(() => {
-    localStorage.setItem('@CookiesFloatingScreen:ReactJS', 'accept');
+    localStorage.setItem('@CookiesFloatingScreen2:ReactJS', 'accept');
 
     setCookies(true);
   }, []);

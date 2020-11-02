@@ -2,15 +2,15 @@
 
 Este é um pequeno repositório, que foi criado a partir de um comentário de um dos usuários do insideblock.com, no comentário ele solicitou ajuda para adicionar aviso de cookies em páginas construídas com ReactJS. Então vamos lá, esta documentação é bem simples.
 
+### Templates
+
 1. [Template Default](https://cookies-notice-for-react.vercel.app)
 
 2. [Template Top Screen](https://cookies-notice-for-react.vercel.app/top-screen)
 
 3. [Template Floating Screen](https://cookies-notice-for-react.vercel.app/floating-screen)
 
-![default](/.github/default.png)
-![top-screen](/.github/top-screen.png)
-![floating screen](/.github/floating-screen.png)
+4. [Template Floating Screen 2](https://cookies-notice-for-react.vercel.app/floating-screen-2)
 
 ## Local Storage
 

@@ -26,7 +26,7 @@ export const Default: React.FC<DefaultProps> =
           <p className="msg-cookies">
             {message ? message : 'Este site usa cookies para garantir que você obtenha a melhor experiência.'}
           </p>
-          <button className="btn-cookies" onClick={handleAcceptCookies}>{textButton ? textButton : 'Aceitar!'}</button>
+          <button className="btn-cookies" onClick={handleAcceptCookies}>{textButton ? textButton : 'Entendi!'}</button>
         </Container>
       )}
     </>

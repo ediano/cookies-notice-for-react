@@ -41,6 +41,7 @@ const Layout = ({ children }: Props) => {
             <li><Link to="/">Default</Link></li>
             <li><Link to="/top-screen">Top Screen</Link></li>
             <li><Link to="/floating-screen">Floating Screen</Link></li>
+            <li><Link to="/floating-screen-2">Floating Screen 2</Link></li>
           </ul>
 
           <button 
@@ -65,7 +66,7 @@ const Layout = ({ children }: Props) => {
         </div>
       </ListTemplate>
 
-      <Text>Display {width - 20} x {height - 20}</Text>
+      <Text>Display {width} x {height}</Text>
       <Display ref={displayRef}>
         {children}
       </Display>

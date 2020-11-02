@@ -17,7 +17,10 @@ height: 64px;
 
 .wrapper ul li {
   display: inline-block;
-  padding: 10px
+}
+
+.wrapper ul li + li {
+  padding-left: 10px;
 }
 
 .wrapper ul li a {
@@ -42,13 +45,13 @@ button.menu {
   cursor: pointer;
 }
 
-@media (min-width: 651px){
+@media (min-width: 701px){
   button.menu {
     display: none;
   }
 }
 
-@media (max-width: 650px){
+@media (max-width: 700px){
   .wrapper ul {
     transform: translateX(150%);
     position: fixed;
@@ -67,6 +70,7 @@ button.menu {
     box-shadow: 0 0 12px 4px rgba(0,0,0,.9);
 
     li {
+      display: flex;
       margin: 10px 0;
     }
   }
@@ -108,6 +112,6 @@ export const Display = styled.div`
 position: relative;
 width: 100%;
 height: calc(100% - 96px);
-border: 20px solid;
+border: 20px solid #999;
 border-radius: 10px;
 `
